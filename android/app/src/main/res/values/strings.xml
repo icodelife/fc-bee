@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FC Bee</string>
+    <string name="score_label">SCORE :</string>
+    <string name="lives_label">LIVES:</string>
+    <string name="you_win">YOU WIN</string>
+    <string name="you_died">YOU DIED</string>
+    <string name="tap_to_start">TAP TO START</string>
+    <string name="tap_to_restart">TAP TO RESTART</string>
+    <string name="lose_all_souls">LOSE ALL SOULS</string>
+</resources>
