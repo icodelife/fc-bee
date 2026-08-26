@@ -1,16 +1,43 @@
 # FC 小蜜蜂 临摹
 
-使用 Phaserjs3 + TS 重构 FC 小蜜蜂
+这是经典FC小蜜蜂游戏的复刻项目，提供两个版本：
+
+1. **Web版本** - 使用 Phaserjs3 + TypeScript 开发
+2. **Android版本** - 使用 Kotlin 原生开发
 
 [参考 - H5 游戏开发：FC 小蜜蜂](https://aotu.io/notes/2018/01/28/galaxian/)
 
-## 启动
+## Web版本启动 (PhaserJS3 + TypeScript)
 
-```
+```bash
+npm install
 npm start
 ```
 
+在浏览器中打开 http://localhost:1234
+
 ![截图](https://s2.ax1x.com/2020/01/13/lHRD1A.jpg)
+
+## Android版本 (Kotlin)
+
+Android Kotlin原生版本位于 `android/` 目录。
+
+### 快速开始
+
+1. 使用Android Studio打开 `android/` 目录
+2. 同步Gradle依赖
+3. 连接Android设备或启动模拟器
+4. 点击运行按钮
+
+### 命令行构建
+
+```bash
+cd android
+./gradlew assembleDebug
+./gradlew installDebug
+```
+
+详细说明请参考 [android/README.md](android/README.md)
 
 ## 开发步骤
 
